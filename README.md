@@ -2,7 +2,7 @@
 Modding junk for noita
 
 ## Installation
-Get setup for mods (unpack your wak, etc.). Copy the `cheatgui/` folder
+Get setup for mods (unpack your wak, etc.). Copy the `mod_cheatgui/` folder
 into your `Noita/mods/` directory. Enable the cheatgui mod from the mods
 menu.
 
