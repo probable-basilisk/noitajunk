@@ -1,19 +1,12 @@
 # Noita Junk
 Modding junk for noita
 
-## Easy Installation
-Back up the current `lua51.dll` in your Noita directory.
-Get the release from the releases tab, unzip into the 
-Noita directory: it should ask to replace `lua51.dll` (say yes).
-You should also end up with a directory `data/hax/` that
-has all the mod scripts.
+## Installation
+Get setup for mods (unpack your wak, etc.). Copy the `cheatgui/` folder
+into your `Noita/mods/` directory. Enable the cheatgui mod from the mods
+menu.
 
-## Installation without DLL
-If you have an unpacked .wak or a mod loader or whatever,
-you can just grab the `data/hax` directory, merge it into
-your `data/`, and then `dofile("data/hax/hax.lua")` from wherever you want (I use `director_init.lua`).
-
-## LuaJit shim
-This patched luajit dll appends `dofile("data/hax/hax.lua")` to the
-end of the file `director_init.lua` when it is loaded. Other
-files are loaded as normal.
+## Note about paths
+Right now I'm having the mod put all its files into the global `data/hax/`
+path rather than into the mod-specific path, both because I'm lazy, and
+also because I might want to cross-load some of these files from other things.
