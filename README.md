@@ -1,3 +1,5 @@
+![Screenshot of the cheat menu as it appears in Noita](/screenshot.jpg?raw=true)
+
 # Noita Junk
 Cheat menu mod + modding bits and pieces for Noita
 
