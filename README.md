@@ -1,7 +1,12 @@
 # Noita Junk
-Modding junk for noita
+Cheat menu mod + modding bits and pieces for Noita
 
-## Installation
+## Reference scripts
+Probably `mod_cheatgui/data/hax/utils.lua/` will be the most informative.
+The alchemy recipe script `mod_cheatgui/data/hax/alchemy.lua` shows how
+the game generates the alchemic recipes.
+
+## Cheat Menu Installation
 Get setup for mods (unpack your wak, etc.). Copy the `mod_cheatgui/` folder
 into your `Noita/mods/` directory. Enable the cheatgui mod from the mods
 menu.
